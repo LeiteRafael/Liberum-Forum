@@ -31,15 +31,3 @@ CASOS DE USO
 9. Consumidor avalia serviço prestado
 10. Listagem de serviços consumidos
 11. Listagem de serviços prestados
-
-ESSENCIAIS
-
-2. Usuário registra um serviço oferecido
-
-5. Usuário solicita orçamento
-
-6. Prestador de serviço avalia solicitação de serviço a ser prestado
-
-7. Consumidor confirma orçamento
-
-8. Prestador realiza serviço
