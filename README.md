@@ -1,17 +1,20 @@
 # Trabalho de Engenharia de Software
 ### Plataforma Web para Contratação e Troca de Serviços Entre Condôminos
 
-Diagrama de Casos de Uso
+>Diagrama de Casos de Uso
+
 ![G2-diagrama](https://user-images.githubusercontent.com/80012798/160193272-8abdfb5f-17d3-43c7-9abb-6c3f358cf648.png)
 
-> PAPEIS
+
+#### PAPEIS
 * Usuário
- * Moderador
- * Administrador
- * Consumidor
- * Prestador
-    
-> RECURSOS
+  * Moderador
+  * Administrador
+  * Consumidor
+  * Prestador
+
+
+#### RECURSOS
 
 * Serviço Disponível
   * area
@@ -29,7 +32,8 @@ Diagrama de Casos de Uso
   * nota
   * comentário
 
-> CASOS DE USO
+
+#### CASOS DE USO
 1. Usuário se inscreve no sistema
 2. Usuário registra um serviço oferecido
 3. Moderador avalia serviço oferecido
