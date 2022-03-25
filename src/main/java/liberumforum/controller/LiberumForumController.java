@@ -1,21 +1,33 @@
 package liberumforum.controller;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import liberumforum.model.Product;
+import liberumforum.service.ProductService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin
 @RestController
-@RequestMapping({ "/api" })
+@RequestMapping({"/api"})
 public class LiberumForumController {
 
-    @CrossOrigin
-    @GetMapping("/users")
-    public List<String> getProduct(){
-        return List.of("Rafael", "Joao");
+    @Autowired
+    ProductService productService;
+
+    @GetMapping(value = "/products")
+    public List<Product> listProducts() {
+        return productService.getAllProducts();
     }
 
+    @GetMapping(value = "/products", params = "name")
+    public List<Product> getProductsByName(@RequestParam String name) {
+        return productService.getProductByName(name);
+    }
+
+    @PostMapping("/products")
+    public Product storeProduct(@RequestBody Product product) {
+        return productService.storeProduct(product);
+    }
 
 }
