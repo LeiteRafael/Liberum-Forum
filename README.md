@@ -4,18 +4,32 @@
 Diagrama de Casos de Uso
 ![G2-diagrama](https://user-images.githubusercontent.com/80012798/160193272-8abdfb5f-17d3-43c7-9abb-6c3f358cf648.png)
 
-PAPEIS
-Usuário, Moderador, Administrador, Consumidor, Prestador
+> PAPEIS
+* Usuário
+ * Moderador
+ * Administrador
+ * Consumidor
+ * Prestador
     
-RECURSOS
+> RECURSOS
 
-a) Serviço Disponível (area, tipo, usuário prestador)
+* Serviço Disponível
+ * area
+ * tipo
+ * usuário prestador
 
-b) Serviço Prestado (usuário prestador, usuário consumidor, local, descrição)
+* Serviço Prestado
+ * usuário prestador
+ * usuário consumidor
+ * local
+ * descrição)
 
-c) Avaliação de Serviço Prestado (serviço prestado, nota, comentário)
+* Avaliação de Serviço Prestado
+ * serviço prestado
+ * nota
+ * comentário
 
-CASOS DE USO
+> CASOS DE USO
 1. Usuário se inscreve no sistema
 2. Usuário registra um serviço oferecido
 3. Moderador avalia serviço oferecido
