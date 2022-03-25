@@ -12,6 +12,7 @@ PAPEIS
 Usuário, Moderador, Administrador, Consumidor, Prestador
     
 RECURSOS
+
 a) Serviço Disponível (area, tipo, usuário prestador)
 
 b) Serviço Prestado (usuário prestador, usuário consumidor, local, descrição)
@@ -32,6 +33,7 @@ CASOS DE USO
 11. Listagem de serviços prestados
 
 ESSENCIAIS
+
 2. Usuário registra um serviço oferecido
 
 5. Usuário solicita orçamento
