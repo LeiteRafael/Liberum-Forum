@@ -2,6 +2,7 @@
 Trabalho da disciplina de Engenharia de Software
 
 *** Implementação da ideia do Grupo 2 ***
+
 **  Plataforma Web para Contratação e Troca de Serviços Entre Condôminos **
 
 Diagrama de Casos de Uso
@@ -12,7 +13,9 @@ Usuário, Moderador, Administrador, Consumidor, Prestador
     
 RECURSOS
 a) Serviço Disponível (area, tipo, usuário prestador)
+
 b) Serviço Prestado (usuário prestador, usuário consumidor, local, descrição)
+
 c) Avaliação de Serviço Prestado (serviço prestado, nota, comentário)
 
 CASOS DE USO
@@ -30,7 +33,11 @@ CASOS DE USO
 
 ESSENCIAIS
 2. Usuário registra um serviço oferecido
+
 5. Usuário solicita orçamento
+
 6. Prestador de serviço avalia solicitação de serviço a ser prestado
+
 7. Consumidor confirma orçamento
+
 8. Prestador realiza serviço
