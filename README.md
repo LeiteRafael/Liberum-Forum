@@ -14,20 +14,20 @@ Diagrama de Casos de Uso
 > RECURSOS
 
 * Serviço Disponível
- * area
- * tipo
- * usuário prestador
+  * area
+  * tipo
+  * usuário prestador
 
 * Serviço Prestado
- * usuário prestador
- * usuário consumidor
- * local
- * descrição)
+  * usuário prestador
+  * usuário consumidor
+  * local
+  * descrição)
 
 * Avaliação de Serviço Prestado
- * serviço prestado
- * nota
- * comentário
+  * serviço prestado
+  * nota
+  * comentário
 
 > CASOS DE USO
 1. Usuário se inscreve no sistema
