@@ -1,6 +1,5 @@
-# Liberum-Forum
-## Trabalho da disciplina de Engenharia de Software
-**Plataforma Web para Contratação e Troca de Serviços Entre Condôminos**
+# Trabalho de Engenharia de Software
+### Plataforma Web para Contratação e Troca de Serviços Entre Condôminos
 
 Diagrama de Casos de Uso
 ![G2-diagrama](https://user-images.githubusercontent.com/80012798/160193272-8abdfb5f-17d3-43c7-9abb-6c3f358cf648.png)
