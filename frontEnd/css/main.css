@@ -1,0 +1,95 @@
+:root{
+	--bg_main: white;
+  --grey: #808080;
+  --dark_grey: #404040;
+	--blue: #4285F4;
+	--light_blue: #66A0FF;
+}
+
+/* ///////////////////////////////////////////////////////// */
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* box-shadow: h-offset v-offset blur-effect spread-radius */
+/* padding: top right bottom left */
+
+/* ///////////////////////////////////////////////////////// */
+
+*{
+	margin: 0em;
+	padding: 0em;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Audiowide', 'Verdana'; */
+}
+
+body{
+	/* font-family: 'Audiowide', 'Verdana'; */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	background: var(--bg_main);
+	padding:50px;
+
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+button{
+	cursor: pointer;
+	color: white;
+	background: var(--blue);
+	border-radius: 10px;
+	border: none;
+	font-size: 1.8rem;
+	padding: 20px 60px;
+	transition: 0.3s ease-in-out;
+}
+
+button:hover{
+	color: var(--dark_grey);
+	background: var(--light_blue);
+	box-shadow: 2px 4px 2px 1px var(--blue);
+}
+
+h1{
+	font-size: 3.141rem;
+	color: var(--grey);
+	letter-spacing: 0.08em;
+}
+
+table label{
+		color: var(--grey);
+}
+
+img{
+	transition: 0.3s ease-in-out;
+}
+
+img:hover{
+	filter:blur(0px) drop-shadow(0px -20px 0px var(--blue)) ;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+#login form{
+	margin: 40px 0px 0px 0px;
+}
+
+#login input{
+	font-size: 1.8rem;
+	padding: 20px 60px;
+	margin: 20px 0px 0px 0px;
+}
+
+#login button{
+	margin-left: 100px;
+}
+
+/* ///////////////////////////////////////////////////////// */
